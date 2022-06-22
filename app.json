@@ -106,7 +106,7 @@
       },
       "MUSICBOT_TUT": {
          "description": "Enter Your Music Bot Setup Video Tutorial Telegraph Link Leave As it Is If You Dont Have",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "MONGO_DB_URI": {
