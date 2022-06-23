@@ -828,11 +828,14 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
 *Click below Button to Get Source Code.*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
+              [
                 [
-                 [
-                    InlineKeyboardButton(text="◤𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆꧂", url="github.com/logi-lab/logibot"),
-                 ]
-                ]
+                    InlineKeyboardButton(text="😋 Sᴏʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/Movies4youBackup"),
+                ],
+                [
+                     InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="about_back"),
+                ]    
+              ]
             ),
         )
     elif query.data == "logi_vida":
@@ -1171,7 +1174,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "LOGI𝘽𝙤𝙩 𝙐𝙥𝙙𝙖𝙩𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✅")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝘽𝙤𝙩 𝙐𝙥𝙙𝙖𝙩𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✅")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
