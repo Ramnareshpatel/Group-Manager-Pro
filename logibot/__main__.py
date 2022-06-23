@@ -727,14 +727,14 @@ Click on below buttons and check amazing tools for users.*""",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴇᴀʀᴄʜ", callback_data="logi_toola"),
-                    InlineKeyboardButton(text="Tᴀɢᴀʟʟ", callback_data="logi_toolb"),
-                    InlineKeyboardButton(text="Kᴀʀᴍᴀ", callback_data="logi_toolc"),
+                    InlineKeyboardButton(text="✨Sᴇᴀʀᴄʜ✨", callback_data="logi_toola"),
+                    InlineKeyboardButton(text="✨Tᴀɢᴀʟʟ✨", callback_data="logi_toolb"),
+                    InlineKeyboardButton(text="✨Kᴀʀᴍᴀ✨", callback_data="logi_toolc"),
                  ],
                  [
-                    InlineKeyboardButton(text="Fᴏɴᴛ Gᴇɴ", callback_data="logi_toold"),
-                    InlineKeyboardButton(text="Pᴀꜱᴛᴇ", callback_data="logi_toole"),
-                    InlineKeyboardButton(text="Tᴇʟᴇɢʀᴀᴘʜ", callback_data="logi_toolf"),
+                    InlineKeyboardButton(text="✨Fᴏɴᴛ Gᴇɴ✨", callback_data="logi_toold"),
+                    InlineKeyboardButton(text="✨Pᴀꜱᴛᴇ✨", callback_data="logi_toole"),
+                    InlineKeyboardButton(text="✨Tᴇʟᴇɢʀᴀᴘʜ✨", callback_data="logi_toolf"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_"),
@@ -853,7 +853,7 @@ def logi_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "about_":
         query.message.edit_text(
-            text="""𝘾𝙇𝙄𝘾𝙆 𝘽𝙀𝙇𝙊𝙒 𝘽𝙐𝙏𝙏𝙊𝙉 𝙁𝙊𝙍 𝙆𝙉𝙊𝙒 𝙈𝙊𝙍𝙀 𝘼𝘽𝙊𝙐𝙏 𝙈𝙀""",
+            text="""**Cʟɪᴄᴋ Bɪʟʟᴏᴡ Bᴜᴛᴛᴏɴ Fᴏʀ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ**""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
