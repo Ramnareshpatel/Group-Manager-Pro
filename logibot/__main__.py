@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ───────────────────────
-× *Pᴏᴡᴇʀᴇᴅ Bʏ: ꧁۝༒LOGI꧂ *
+× *Pᴏᴡᴇʀᴇᴅ Bʏ: 會؄𝚂𝚄𝚁𝙰𝙹؄會 *
 ───────────────────────"""
 
 buttons = [
@@ -103,7 +103,7 @@ buttons = [
     ],
    [
         InlineKeyboardButton(text="💓 Uᴘᴅᴀᴛᴇs", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="⚡ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🛡️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [  
         InlineKeyboardButton(text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ───────────────────
-× *Pᴏᴡᴇʀᴇᴅ Bʏ: 🕊.LOGI *
+× *Pᴏᴡᴇʀᴇᴅ Bʏ: 🕊.會؄𝚂𝚄𝚁𝙰𝙹؄會 *
 ───────────────────""".format(
                     escape_markdown(first_name),
                     escape_markdown(uptime),
@@ -250,8 +250,8 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="◤𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆꧂", callback_data="logi_source"), 
-                   InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{SUPPORT_CHAT}")]
+                  [InlineKeyboardButton(text="📌 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", callback_data="logi_source"), 
+                   InlineKeyboardButton(text="🛡️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
                 parse_mode=ParseMode.MARKDOWN,              
@@ -364,7 +364,7 @@ def tiana_callback_handler(update, context):
     query = update.callback_query
     if query.data == "logi_":
         query.message.edit_text(
-            text="""𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪. 
+            text="""**Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴏᴅᴜʟᴇ.** 
 ────────────────────────
 *Sᴇʟᴇᴄᴛ  Aʟʟ  Cᴏᴍᴍᴀɴᴅs  Fᴏʀ  Fᴜʟʟ  Hᴇʟᴘ  Oʀ  Sᴇʟᴇᴄᴛ  Cᴀᴛᴀɢᴏʀʏ  Fᴏʀ  Mᴏʀᴇ  Hᴇʟᴘ  Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ  Oɴ  Sᴇʟᴇᴄᴛᴇᴅ  Fɪᴇʟᴅs*""",
             parse_mode=ParseMode.MARKDOWN,
@@ -372,11 +372,11 @@ def tiana_callback_handler(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                     InlineKeyboardButton(text="꧁۝𝑪𝒐𝒎𝒎𝒂𝒏𝒅 ꧂", callback_data="help_back"),
+                     InlineKeyboardButton(text="📚 Hᴇʟᴘ", callback_data="help_back"),
                     ],                           
-                    [InlineKeyboardButton(text="꧁۝𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="logi_help")],
-                    [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_back"),
-                     InlineKeyboardButton(text="꧁۝𝙁𝙪𝙣 𝙏𝙤𝙤𝙡𝙨 ⚙", callback_data="logi_tools")],
+                    [InlineKeyboardButton(text="❓ Hᴏᴡ Tᴏ Usᴇ Mᴇ", callback_data="logi_help")],
+                    [InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="logi_back"),
+                     InlineKeyboardButton(text="😆 Fᴜɴ Tᴏᴏʟs", callback_data="logi_tools")],
                 ]
             ),
         )
@@ -402,9 +402,9 @@ def tiana_callback_handler(update, context):
 Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜʀ  Gʀᴏᴜᴘ. Bᴀsɪᴄ  Tᴏᴜʀ  Sᴛᴀʀᴛᴇᴅ  Tᴏ  Kɴᴏᴡ  Aʙᴏᴜᴛ  Hᴏᴡ  Tᴏ  Usᴇ  Mᴇ*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-              [[InlineKeyboardButton(text="꧁۝༒𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vida")],
-               [InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],       
-                [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_"),
+              [[InlineKeyboardButton(text="🎥 Sᴇᴛᴜᴘ Tᴜᴛᴏʀɪᴀʟ", callback_data="logi_vida")],
+               [InlineKeyboardButton(text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],       
+                [InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_"),
                  InlineKeyboardButton(text="➡️", callback_data="logi_helpa")]
               ]
             ),
@@ -509,7 +509,7 @@ Nᴏᴛᴇ-  ɴɪɢʜᴛ  ᴍᴏᴅᴇ  ᴄʜᴀᴛs  ɢᴇᴛ  ᴀᴜᴛᴏᴍ�
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_")]]
+                InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="about_")]]
             ),
         )
     elif query.data == "logi_helpe":
