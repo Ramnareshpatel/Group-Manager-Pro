@@ -103,7 +103,7 @@ buttons = [
     ],
    [
         InlineKeyboardButton(text="💓 Uᴘᴅᴀᴛᴇs", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="🛡️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="⚡ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [  
         InlineKeyboardButton(text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
@@ -114,7 +114,7 @@ buttons = [
 LOGI_IMG = f"{START_IMG}"
 LOGI_VIDA = f"{BOT_TUT}"
 
-HELP_STRINGS = """*Click on the Buttons Bellow to get Documention about Specific Modules*"""
+HELP_STRINGS = """*Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴs Bᴇʟʟᴏᴡ Tᴏ Gᴇᴛ Dᴏᴄᴜᴍᴇɴᴛɪᴏɴ Aʙᴏᴜᴛ Sᴘᴇᴄɪғɪᴄ Mᴏᴅᴜʟᴇs*"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -202,7 +202,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
