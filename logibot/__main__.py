@@ -95,18 +95,18 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="꧁۝༒𝑯𝒆𝒍𝒑 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 ꧂", callback_data="logi_"),
+        InlineKeyboardButton(text="📚 Cᴏᴍᴍᴀɴᴅs & Hᴇʟᴘ", callback_data="logi_"),
     ],
     [
-        InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="about_"),
-        InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓",  url=f"http://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="💁‍♂️ Iɴғᴏ", callback_data="about_"),
+        InlineKeyboardButton(text="👑 Oᴡɴᴇʀ",  url=f"http://t.me/{OWNER_USERNAME}"),
     ],
    [
-        InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="💓 Uᴘᴅᴀᴛᴇs", url=f"http://t.me/{UPDATE_CHANNEL}"),
+        InlineKeyboardButton(text="🛡️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [  
-        InlineKeyboardButton(text="⚚𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑✔️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ], 
     
 ]
