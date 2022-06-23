@@ -527,9 +527,9 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="➕ 𝘼𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ➕", callback_data="help_back")],
+                [[InlineKeyboardButton(text="📚 Aʟʟ Cᴏᴍᴍᴀɴᴅ", callback_data="help_back")],
                 [InlineKeyboardButton(text="⬅️", callback_data="logi_helpd"),
-                InlineKeyboardButton(text="꧁۝༒𝙈𝙖𝙞𝙣 𝙈𝙚𝙣𝙪", callback_data="logi_")]]
+                InlineKeyboardButton(text="Mᴇɪɴ Mᴇɴᴜ", callback_data="logi_")]]
             ),
         )
     elif query.data == "logi_music":
@@ -544,12 +544,12 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-               [[InlineKeyboardButton(text="꧁۝༒𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vidb")],
-                [InlineKeyboardButton(text="꧁۝༒𝙋𝙡𝙖𝙮 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musica"),
-                 InlineKeyboardButton(text="꧁۝༒𝘽𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicc")],
-                [InlineKeyboardButton(text="꧁۝༒𝘼𝙙𝙢𝙞𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicb"),
-                 InlineKeyboardButton(text="꧁۝༒𝙀𝙭𝙩𝙧𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicd")],
-                [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_")]
+               [[InlineKeyboardButton(text="🎥 Sᴇᴛᴜᴘ Tᴜᴛᴏʀɪᴀʟ ", callback_data="logi_vidb")],
+                [InlineKeyboardButton(text="▶️ Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="logi_musica"),
+                 InlineKeyboardButton(text="🤖 Bᴏᴛ Cᴏᴍᴍᴀɴᴅs", callback_data="logi_musicc")],
+                [InlineKeyboardButton(text="👑 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs", callback_data="logi_musicb"),
+                 InlineKeyboardButton(text="👽 Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", callback_data="logi_musicd")],
+                [InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_")]
                ]
             ),
         )
@@ -581,7 +581,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_music")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_music")]]
             ),
         )
     elif query.data == "logi_musicb":
@@ -621,7 +621,7 @@ LOGI has a additional feature for non-admin users who want to use admin commands
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_music")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_music")]]
             ),
         )
     elif query.data == "logi_musicc":
@@ -642,7 +642,7 @@ LOGI has a additional feature for non-admin users who want to use admin commands
 - Ping the Bot and check Ram, Cpu etc stats of LOGI.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_music")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_music")]]
             ),
         )
     elif query.data == "logi_musicd":
@@ -667,7 +667,7 @@ LOGI has a additional feature for non-admin users who want to use admin commands
 - When enabled, Tiana will be deleting her 3rd last message to keep your chat clean.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_music")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_music")]]
             ),
         )
     elif query.data == "logi_about":
@@ -692,7 +692,7 @@ Support
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="about_")]]
             ),
         )
     elif query.data == "logi_support":
@@ -702,15 +702,15 @@ Support
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="꧁۝༒Nᴇᴡꜱ", url=f"t.me/{UPDATE_CHANNEL}"),
-                    InlineKeyboardButton(text="꧁۝༒Dᴏɴᴀᴛᴇ Mᴇ", url=f"{DONATION_LINK}"),
+                    InlineKeyboardButton(text="🗞️ Nᴇᴡꜱ", url=f"t.me/{UPDATE_CHANNEL}"),
+                    InlineKeyboardButton(text="✅ Dᴏɴᴀᴛᴇ Mᴇ", url=f"{DONATION_LINK}"),
                  ],
                  [
-                    InlineKeyboardButton(text="꧁۝༒Sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"),
-                    InlineKeyboardButton(text="꧁۝༒Uᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                    InlineKeyboardButton(text="🛡️ Sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"),
+                    InlineKeyboardButton(text="💓 Uᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATE_CHANNEL}"),
                  ],
                  [
-                    InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_"),
+                    InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="about_"),
                  
                  ]
                 ]
@@ -727,17 +727,17 @@ Click on below buttons and check amazing tools for users.*""",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="꧁۝༒Sᴇᴀʀᴄʜ", callback_data="logi_toola"),
-                    InlineKeyboardButton(text="꧁۝༒Tᴀɢᴀʟʟ", callback_data="logi_toolb"),
-                    InlineKeyboardButton(text="꧁۝༒Kᴀʀᴍᴀ", callback_data="logi_toolc"),
+                    InlineKeyboardButton(text="Sᴇᴀʀᴄʜ", callback_data="logi_toola"),
+                    InlineKeyboardButton(text="Tᴀɢᴀʟʟ", callback_data="logi_toolb"),
+                    InlineKeyboardButton(text="Kᴀʀᴍᴀ", callback_data="logi_toolc"),
                  ],
                  [
-                    InlineKeyboardButton(text="꧁۝༒Fᴏɴᴛ Gᴇɴ", callback_data="logi_toold"),
-                    InlineKeyboardButton(text="꧁۝༒Pᴀꜱᴛᴇ", callback_data="logi_toole"),
-                    InlineKeyboardButton(text="꧁۝༒Tᴇʟᴇɢʀᴀᴘʜ", callback_data="logi_toolf"),
+                    InlineKeyboardButton(text="Fᴏɴᴛ Gᴇɴ", callback_data="logi_toold"),
+                    InlineKeyboardButton(text="Pᴀꜱᴛᴇ", callback_data="logi_toole"),
+                    InlineKeyboardButton(text="Tᴇʟᴇɢʀᴀᴘʜ", callback_data="logi_toolf"),
                  ],
                  [
-                    InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_"),
+                    InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_"),
                  
                  ]
                 ]
@@ -753,7 +753,7 @@ Click on below buttons and check amazing tools for users.*""",
  ❍ /reverse: Does a reverse image search of the media which it was replied to.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_toolb":
@@ -765,7 +765,7 @@ Click on below buttons and check amazing tools for users.*""",
 Note- Only admins can Use Tagall Command.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_toolc":
@@ -780,7 +780,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
 - /karma: Chek karma list of top 10 users""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_toold":
@@ -797,7 +797,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
  - /lined text: lined your text!""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_toole":
@@ -807,7 +807,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
  ❍ /paste: Saves replied content to replies with a url""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_toolf":
@@ -818,7 +818,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
  ❍ /txt :Get Telegraph Link of Replied Text""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_source":
