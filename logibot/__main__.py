@@ -372,7 +372,7 @@ def tiana_callback_handler(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                     InlineKeyboardButton(text="📚 Hᴇʟᴘ", callback_data="help_back"),
+                     InlineKeyboardButton(text="📚 Cᴏᴍᴍᴀɴᴅ", callback_data="help_back"),
                     ],                           
                     [InlineKeyboardButton(text="❓ Hᴏᴡ Tᴏ Usᴇ Mᴇ", callback_data="logi_help")],
                     [InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="logi_back"),
@@ -528,8 +528,8 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="📚 Aʟʟ Cᴏᴍᴍᴀɴᴅ", callback_data="help_back")],
-                [InlineKeyboardButton(text="⬅️", callback_data="logi_helpd"),
-                InlineKeyboardButton(text="Mᴇɪɴ Mᴇɴᴜ", callback_data="logi_")]]
+                [InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="logi_helpd"),
+                InlineKeyboardButton(text="⚡ Mᴇɪɴ Mᴇɴᴜ", callback_data="logi_")]]
             ),
         )
     elif query.data == "logi_music":
@@ -678,7 +678,7 @@ Bot Admins
                        
 • @{OWNER_USERNAME}, bot creator .
 
-• [會؄𝚂𝚄𝚁𝙰𝙹؄會](https://t.me/KingOf_univers) The Doctor, Coder , server manager and developer.
+• [꧁۝༒LOGI꧂](https://t.me/clmelogesh) This Boy Help Me To Create This Bot, 🥺 Please Donate Some Money Like 20Rs And As Your Wish 😄.
             
 • Manuel 5, developer.
             
@@ -797,7 +797,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
  - /lined text: lined your text!""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="logi_tools")]]
+                [[InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="logi_tools")]]
             ),
         )
     elif query.data == "logi_toole":
@@ -833,7 +833,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
                     InlineKeyboardButton(text="😋 Sᴏʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/Movies4youBackup"),
                 ],
                 [
-                     InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="about_back"),
+                     InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="about"),
                 ]    
               ]
             ),
