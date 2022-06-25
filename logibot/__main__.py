@@ -833,7 +833,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
                     InlineKeyboardButton(text="😋 Sᴏʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/Movies4youBackup"),
                 ],
                 [
-                     InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="about"),
+                     InlineKeyboardButton(text="⬅️ Bᴀᴄᴋ", callback_data="about_"),
                 ]    
               ]
             ),
